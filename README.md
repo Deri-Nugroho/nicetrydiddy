@@ -10,7 +10,17 @@ This app uses [Express.js](https://expressjs.com/) to serve a single webpage wit
 
 ---
 
-## ❗ Why Port 6000 Was Replaced
+## 🚀 Quick Setup on Amazon Linux 2023
+
+### *Install dependency*
+
+```bash
+npm isntall
+```
+
+## *Modify app.js to use port 8000*
+
+❗ Why Port 6000 Was Replaced
 
 The original code uses **port 6000**, but:
 
@@ -20,22 +30,23 @@ The original code uses **port 6000**, but:
 
 ✅ We changed it to **port 8000**, a commonly used and accessible port for development servers.
 
----
-
-## 🚀 Quick Setup on Amazon Linux 2023
-
-### 1. Update and install Node.js
-
 ```bash
-sudo dnf update -y
-sudo dnf install nodejs -y
-```
-
-```2. Clone or create your project
-git clone https://github.com/your-username/nicetrydiddy.git
-cd nicetrydiddy
-```
-
-```3. Modify app.js to use port 8000
 nano app.js
+```
+
+🔧 Change:
+
+```js
+const port = 6000;
+```
+
+➡️ To:
+
+```js
+const port = 8000;
+```
+
+## Run the app
+```bash
+node app.js
 ```
