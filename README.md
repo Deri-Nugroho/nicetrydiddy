@@ -29,3 +29,13 @@ The original code uses **port 6000**, but:
 ```bash
 sudo dnf update -y
 sudo dnf install nodejs -y
+```
+
+```2. Clone or create your project
+git clone https://github.com/your-username/nicetrydiddy.git
+cd nicetrydiddy
+```
+
+```3. Modify app.js to use port 8000
+nano app.js
+```
