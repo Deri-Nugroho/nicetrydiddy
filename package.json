@@ -1,4 +1,4 @@
-{
+{ 
   "name": "diddy-click-logger",
   "version": "1.0.0",
   "scripts": {
@@ -7,6 +7,7 @@
   "dependencies": {
     "aws-sdk": "^2.1576.0",
     "dotenv": "^16.4.5",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mysql2": "^3.9.7"
   }
 }
