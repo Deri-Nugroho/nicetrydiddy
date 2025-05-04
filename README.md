@@ -32,7 +32,7 @@ AWS_BUCKET_NAME=your-bucket-name
 DB_HOST=your-db-host
 DB_USER=your-db-user
 DB_PASS=your-db-password
-DB_NAME=crud
+DB_NAME=your-db-name
 ```
 
 ## Run the app
