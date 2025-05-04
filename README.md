@@ -15,7 +15,7 @@ This app uses [Express.js](https://expressjs.com/) to serve a single webpage wit
 ### *Install dependency*
 
 ```bash
-npm isntall
+npm install
 ```
 
 ## *Environment*
