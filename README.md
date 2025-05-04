@@ -15,14 +15,14 @@ This app uses [Express.js](https://expressjs.com/) to serve a single webpage wit
 ### *Install dependency*
 
 ```bash
-npm isntall
+npm install
 ```
 
 ## *Environment*
 
 ```java
 # Konfigurasi server
-PORT=your-port-server                 # Port tempat aplikasi berjalan
+PORT=your-port-server                  # Port tempat aplikasi berjalan
 
 # AWS Credentials
 AWS_ACCESS_KEY_ID=your-access-key-id   # Access Key ID AWS
