@@ -5,7 +5,7 @@ const path = require('path');
 const AWS = require('aws-sdk');
 
 const app = express();
-const port = process.env.PORT || 6000;
+const port = process.env.PORT;
 
 // Konfigurasi AWS
 AWS.config.update({
