@@ -46,6 +46,20 @@ const port = 6000;
 const port = 8000;
 ```
 
+## *Environment*
+
+```java
+# Konfigurasi server
+PORT=your-port-server                 # Port tempat aplikasi berjalan
+
+# AWS Credentials
+AWS_ACCESS_KEY_ID=your-access-key-id   # Access Key ID AWS
+AWS_SECRET_ACCESS_KEY=your-secret-key  # Secret Access Key AWS
+AWS_SESSION_TOKEN=your-session-token   # Token sesi AWS (jika menggunakan kredensial sementara)
+AWS_REGION=your-region                 # Wilayah AWS (contoh: us-east-1, us-west-2)
+AWS_BUCKET_NAME=your-bucket-name       # Nama bucket S3 tempat penyimpanan backup
+```
+
 ## Run the app
 ```bash
 node app.js

@@ -1,15 +1,12 @@
 {
-  "name": "nicetrydiddy",
+  "name": "diddy-click-logger",
   "version": "1.0.0",
-  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "Image Preview",
-  "devDependencies": {
+  "dependencies": {
+    "aws-sdk": "^2.1576.0",
+    "dotenv": "^16.4.5",
     "express": "^4.21.2"
   }
 }
